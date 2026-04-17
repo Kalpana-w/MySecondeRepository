@@ -10,12 +10,6 @@ jobs:
     steps:
       - name: Print message
         run: echo "Pipeline chal raha hai 🚀"
-        
-        - name: Show files
-  run: ls
-  steps:
-  - name: Print message
-    run: echo "Pipeline chal raha hai 🚀"
 
-  - name: Show files
-    run: ls
+      - name: Show files
+        run: ls
